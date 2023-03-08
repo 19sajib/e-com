@@ -8,6 +8,6 @@ const server = new ApolloServer({
 
 connectDB();
 
-server.listen({ port: 4001 }).then(({ url }) => {
+server.listen({ port: 4002 }).then(({ url }) => {
   console.log(`🚀 Server ready at ${url}`);
 });
